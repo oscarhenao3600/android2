@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estadisticas"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="40dp"
+            android:text="Estadistica"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="?colorPrimary"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="255dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mensaje1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text=" " />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="40dp"
+            android:text="Resumen"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="?colorPrimary"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:text="@string/dato1"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textAnorexia"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:text=" " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:text="@string/dato2"/>
+
+            <TextView
+                android:id="@+id/textDeldadez"
+                android:layout_width="33dp"
+                android:layout_height="match_parent"
+                android:text=" " />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:text="@string/dato3"/>
+
+            <TextView
+                android:id="@+id/textNormal"
+                android:layout_width="31dp"
+                android:layout_height="match_parent"
+                android:text=" " />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:text="@string/dato4"/>
+
+            <TextView
+                android:id="@+id/textObesidad1"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:text=" " />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:text="@string/dato5"/>
+
+            <TextView
+                android:id="@+id/textObesidad2"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:text=" " />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:text="@string/dato6"/>
+
+            <TextView
+                android:id="@+id/textObesidad3"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:text=" " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="12dp"
+                android:text="@string/dato7"/>
+
+            <TextView
+                android:id="@+id/textMorbida"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:text=" " />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textprocesos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="Procesados" />
+
+            <TextView
+                android:id="@+id/textPro"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAtras1"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:backgroundTint="?colorPrimary"
+            android:text="Atras"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

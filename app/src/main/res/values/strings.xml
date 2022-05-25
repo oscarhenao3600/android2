@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">GIM Los Andes</string>
+
+
+    <string name="datos_personales"> Registrar Datos Personales </string>
+    <string name="nombre">Nombre completo</string>
+    <string name="edad">Edad - Años </string>
+    <string name="peso">Peso - Kilos </string>
+    <string name="talla">Talla - Metros </string>
+
+    <string name="btn_registrar">REGISTRAR</string>
+
+
+    <string name="Nombre">GYM Los Andes</string>
+    <string name="registro">REGISTRO</string>
+    <string name="datoIndividual">Datos a Registrar</string>
+    <string name="estadisticasMenu">ESTADISTICAS</string>
+    <string name="ayudaMenu">AYUDA</string>
+    <string name="autor">By OrionLed.it</string>
+    <string name="dato1">Anorexia</string>
+    <string name="dato2">Delgadez</string>
+    <string name="dato3">Normal</string>
+    <string name="dato4">Obesidad tipo 1</string>
+    <string name="dato5">Obesidad tipo 2</string>
+    <string name="dato6">Obesidad tipo 3</string>
+    <string name="dato7">Obesidad Morbida</string>
+
+
+
+    <string name="ayuda_Principal">Información Del Sistema</string>
+    <string name="btn_atras">Atras</string>
+    <string name="Titulo">Bienvenid@ a nuestra aplicacion del GYM Los Andes\n</string>
+    <string name="informacion">
+        \ncon la ayuda de esta app y un instructor podras alcanzar tus metas deacuerdo a tus necesidades
+        u objetivos\n
+
+        \nPrimero necesitas registrarte con algunos datos basicos que nos ayudaran a crear una rutia con tu
+        entrenador personal.\n
+    </string>
+
+
+    <string name="resutado_titulo">Resultado</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_presentar">Presentar Datos</string>
+    <string name="resultado"></string>
+
+    <string name="titulo_estadistica">Lista de Usuarios</string>
+    <string name="titulo_resumen">Resumen</string>
+    <string name="procesados">Procesados</string>
+
+
+
+</resources>
